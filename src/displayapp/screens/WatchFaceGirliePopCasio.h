@@ -106,7 +106,7 @@ namespace Pinetime {
     template <>
     struct WatchFaceTraits<WatchFace::GirliePopCasio> {
       static constexpr WatchFace watchFace = WatchFace::GirliePopCasio;
-      static constexpr const char* name = "Girlie Pop Casio";
+      static constexpr const char* name = "Girlie Pop";
 
       static Screens::Screen* Create(AppControllers& controllers) {
         return new Screens::WatchFaceGirliePopCasio(controllers.dateTimeController,
